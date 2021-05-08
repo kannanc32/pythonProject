@@ -12,7 +12,7 @@ ${search_query}  css=input[name=q]
 ${search_term}  Lamdatest
 
 *** Test Cases ***
-Google search
+Google search update
 
    Wait Until Element Is Visible  ${search_query}
    Input Text  ${search_query}  ${EMPTY}
