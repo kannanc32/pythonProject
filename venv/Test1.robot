@@ -13,7 +13,7 @@ ${search_term}  Lamdatest
 
 *** Test Cases ***
 Google search update
-
+   Maximize Browser Window
    Wait Until Element Is Visible  ${search_query}
    Input Text  ${search_query}  ${EMPTY}
    Input Text  ${search_query}  ${search_term}
